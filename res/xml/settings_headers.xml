@@ -247,6 +247,17 @@
         android:icon="@*android:drawable/ic_print"
         android:title="@string/print_settings" />
 
+    <!-- Kernel Tweaker -->
+    <Preference
+        android:id="@+id/kernel_tweaker"
+        android:title="@string/kernel_tweaker_title"
+        android:icon="@drawable/ic_liquid_performance" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.simonedev.kernelm.MainActivity"
+            android:targetPackage="com.simonedev.kernelm" />
+    </Preference>
+
     <!-- Development -->
     <header
         settings:includeXmlForSearch="@xml/development_prefs"
