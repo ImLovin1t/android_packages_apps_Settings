@@ -248,7 +248,7 @@
         android:title="@string/print_settings" />
 
     <!-- Kernel Tweaker -->
-    <Preference
+    <header
         android:id="@+id/kernel_tweaker"
         android:title="@string/kernel_tweaker_title"
         android:icon="@drawable/ic_liquid_performance" >
@@ -256,7 +256,7 @@
             android:action="android.intent.action.MAIN"
             android:targetClass="com.simonedev.kernelm.MainActivity"
             android:targetPackage="com.simonedev.kernelm" />
-    </Preference>
+    </header>
 
     <!-- Development -->
     <header
