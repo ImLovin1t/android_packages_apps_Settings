@@ -58,8 +58,7 @@
     <string name="general_category_title">General</string>
 
     <!-- General settings -->
-    <string name="VIPERequalizer_settings_title">VIPER Equalizer</string>
-    <string name="DSPequalizer_settings_title">DSP Equalizer</string>
+    <string name="equalizer_settings_title">Equalizer</string>
     <string name="interface_settings_title">Interface</string>
     <string name="lockscreen_settings_title">Lock screen</string>
     <string name="navigation_settings_title">Navigation</string>
