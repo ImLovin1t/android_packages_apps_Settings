@@ -58,11 +58,12 @@
     <string name="general_category_title">General</string>
 
     <!-- General settings -->
-    <string name="equalizer_settings_title">Equalizer</string>
+    <string name="DSPequalizer_settings_title">DSP Equalizer</string>
+    <string name="VIPERequalizer_settings_title">VIPER Equalizer</string>
     <string name="interface_settings_title">Interface</string>
     <string name="lockscreen_settings_title">Lock screen</string>
     <string name="navigation_settings_title">Navigation</string>
-    <string name="kernel_tweaker_title">Kernel manager</string>
+    <string name="kernel_tweaker_title">Kernel Manager</string>
     <string name="statusbar_settings_title">Status bar</string>
     <string name="notification_settings_title">Notifications</string>
 
