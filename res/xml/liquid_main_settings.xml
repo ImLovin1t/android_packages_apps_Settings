@@ -22,14 +22,25 @@
     <!-- Viper Equalizer -->
     <Preference
         android:id="@+id/equalizer_settings"
-        android:title="@string/equalizer_settings_title"
+        android:title="@string/VIPERequalizer_settings_title"
+        android:icon="@drawable/ic_liquid_equalizer" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android"
+            android:targetPackage="com.vipercn.viper4android_v2" />
+    </Preference>
+    
+    <!-- DSP Equalizer -->
+    <Preference
+        android:id="@+id/equalizer_settings"
+        android:title="@string/DSPequalizer_settings_title"
         android:icon="@drawable/ic_liquid_equalizer" >
         <intent
             android:action="android.intent.action.MAIN"
             android:targetClass="com.bel.android.dspmanager.activity.DSPManager"
             android:targetPackage="com.bel.android.dspmanager" />
     </Preference>
-
+   
     <!-- Interface -->
     <PreferenceScreen
         settings:includeXmlForSearch="@xml/liquid_interface_settings"
