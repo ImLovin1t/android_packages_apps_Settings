@@ -249,12 +249,12 @@
 
     <!-- Kernel Tweaker -->
     <header
-        android:id="@+id/kernel_tweaker"
+        android:id="@+id/kernel_manager"
         android:title="@string/kernel_tweaker_title"
         android:icon="@drawable/ic_liquid_performance" >
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetClass="com.simonedev.kernelm.MainActivity"
+            android:targetClass="com.simonedev.kernelmanager.MainActivity"
             android:targetPackage="com.simonedev.kernelm" />
     </header>
 
