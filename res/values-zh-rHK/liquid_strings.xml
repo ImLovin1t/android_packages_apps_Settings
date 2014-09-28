@@ -57,7 +57,12 @@
   <string name="notification_drawer_title">Notification drawer</string>
   <string name="pie_control_title">Slim pie controls</string>
   <string name="theme_settings_title">Total blackout</string>
+<<<<<<< HEAD
   <string name="device_settings_title">Device</string>
+=======
+  <string name="device_settings_title">裝置</string>
+  <string name="devicesettings_app_summary">Configure device specific options</string>
+>>>>>>> 24dee51... Automatic translation import
   <string name="device_legal_summary">Open source and Google licenses</string>
   <string name="shortcut_picker_title">Action shortcuts</string>
   <string name="superuser_settings_title">Superuser</string>
