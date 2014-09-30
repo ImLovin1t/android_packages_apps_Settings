@@ -733,7 +733,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' cancella la riga selezionata
   <string name="lockscreen_style_reset_message">Reimpostare tutti i colori del blocco schermo?</string>
   <string name="lockscreen_icon_title">Icona sblocco</string>
   <string name="lockscreen_lock_icon_custom">Icona personalizzata</string>
-  <string name="lockscreen_lock_icon_liquid">Fireworks Icon</string>
+  <string name="lockscreen_lock_icon_liquid">Liquid Icon</string>
   <string name="lockscreen_lock_icon_default">Icona predefinita</string>
   <string name="lockscreen_colorize_handle_title">Colorizza il lucchetto di sblocco</string>
   <string name="lockscreen_colorize_handle_summary">Il colore di blocco sarà impostato al lucchetto</string>
@@ -944,7 +944,7 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' cancella la riga selezionata
   <string name="encryptionpassword_choose_your_password_header">Imposta password crittografia</string>
   <string name="debug_LAN_category">Impostazioni LAN</string>
   <string name="device_hostname">Hostname dispositivo</string>
-  <string name="chamber_title">Fireworks Dungeon</string>
+  <string name="chamber_title">Liquid Dungeon</string>
   <string name="chamber_toast">Hai aperto il Dungeon</string>
   <string name="volume_keys_control_media_stream">Controllo media</string>
   <string name="volume_keys_control_media_stream_summary">I tasti del volume controllano volume dei media piuttosto che le notifiche</string>
@@ -1357,10 +1357,10 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' cancella la riga selezionata
   <string name="development_shortcut_title">Scorciatoie sviluppatore</string>
   <string name="development_shortcut_summary">Attiva le opzioni \'Cancella dati\' e \'Arresto forzato\' nell\'area delle notifiche e nella lista delle app recenti</string>
   <string name="custom_runtime_warning_title">Attenzione</string>
-  <string name="custom_runtime_warning_message">ART non è supportato da Fireworks. Questa impostazione è disponibile solo a scopo di sperimentazione e può causare instabilità, crash, perdita di dati o impedire al dispositivo di avviarsi correttamente. Visita &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; per maggiori informazioni.&lt;br/&gt;&lt;br/&gt;Ti chiediamo di non segnalarci eventuali errori se hai attivo ART come runtime.&lt;br/&gt;&lt;br/&gt;Sei sicuro di volere riavviare per cambiare runtime da <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> a <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
-  <string name="rominfo_settings_list_item_title">Statistiche Fireworks</string>
-  <string name="rominfo_settings_list_item_summary">Aiuta a rendere Fireworks migliore optando per la segnalazione anonima delle statistiche</string>
-  <string name="liquidsmoothupdate_settings_title">Aggiornamenti Fireworks</string>
+  <string name="custom_runtime_warning_message">ART non è supportato da LiquidSmooth. Questa impostazione è disponibile solo a scopo di sperimentazione e può causare instabilità, crash, perdita di dati o impedire al dispositivo di avviarsi correttamente. Visita &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; per maggiori informazioni.&lt;br/&gt;&lt;br/&gt;Ti chiediamo di non segnalarci eventuali errori se hai attivo ART come runtime.&lt;br/&gt;&lt;br/&gt;Sei sicuro di volere riavviare per cambiare runtime da <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> a <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+  <string name="rominfo_settings_list_item_title">Statistiche LiquidSmooth</string>
+  <string name="rominfo_settings_list_item_summary">Aiuta a rendere LiquidSmooth migliore optando per la segnalazione anonima delle statistiche</string>
+  <string name="liquidsmoothupdate_settings_title">Aggiornamenti LiquidSmooth</string>
   <string name="liquidsmoothupdate_settings_summary">Controlla, visualizza o installa gli aggiornamenti</string>
   <string name="vibrator_multiplier_title">Moltiplicatore vibrazione</string>
   <string name="lockscreen_notification_title">Abilita Notifiche</string>
@@ -2051,16 +2051,16 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' cancella la riga selezionata
   <string name="lock_pattern_size_8">8x8</string>
   <string name="lock_pattern_size_9">9x9</string>
   <string name="lock_pattern_size_10">10x10</string>
-  <string name="download_category">Download Fireworks</string>
+  <string name="download_category">Download LiquidSmooth</string>
   <string name="download_category_summary">Trova tutto il supporto che ti serve qui</string>
   <string name="rom_category">Download ROM</string>
   <string name="gapps_category">Pacchetti Gapps</string>
   <string name="xposed_category">Xposed Framework</string>
-  <string name="lsgapps_title">Fireworks Gapps</string>
-  <string name="lsgapps_summary">Le Fireworks Gapps sono generalmente raccomandate per l\'uso su Fireworks</string>
-  <string name="ls_official_title">Bulid di rilascio Fireworks</string>
-  <string name="ls_official_summary">Link per la bulid stabile di Fireworks</string>
-  <string name="ls_nightly_title">Nightly Fireworks</string>
+  <string name="lsgapps_title">LiquidSmooth Gapps</string>
+  <string name="lsgapps_summary">Le LiquidSmooth Gapps sono generalmente raccomandate per l\'uso su LiquidSmooth</string>
+  <string name="ls_official_title">Bulid di rilascio LiquidSmooth</string>
+  <string name="ls_official_summary">Link per la bulid stabile di LiquidSmooth</string>
+  <string name="ls_nightly_title">Nightly LiquidSmooth</string>
   <string name="ls_nightly_summary">Collegamento per le bulid instabili</string>
   <string name="pagapps_title">PA Gapps</string>
   <string name="pagapps_summary">Completamente impacchettate con la maggior parte delle Gapps, queste sono comunemente utilizzate dagli utenti che non vogliono scaricarle/installale più tardi</string>

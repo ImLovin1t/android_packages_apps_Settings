@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The LiquidSmooth Project
+<!-- Copyright (C) 2014 The Fireworks Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -35,7 +35,7 @@
     <string name="saturday">Saturday</string>
 
     <!-- Mod version -->
-    <string name="mod_version">LiquidSmooth version</string>
+    <string name="mod_version">Fireworks version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- Build date -->
@@ -58,8 +58,8 @@
     <string name="general_category_title">General</string>
 
     <!-- General settings -->
-    <string name="VIPERequalizer_settings_title">VIPER Equalizer</string>
     <string name="DSPequalizer_settings_title">DSP Equalizer</string>
+    <string name="VIPERequalizer_settings_title">Viper Equalizer</string>
     <string name="interface_settings_title">Interface</string>
     <string name="lockscreen_settings_title">Lock screen</string>
     <string name="navigation_settings_title">Navigation</string>
@@ -76,6 +76,7 @@
 
     <!-- Device settings -->
     <string name="device_settings_title">Device</string>
+    <string name="devicesettings_app_summary">Configure device specific options</string>
     <string name="device_legal_summary">Open source and Google licenses</string>
 
     <!-- Action shortcuts -->
@@ -1613,14 +1614,14 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Warning</string>
-    <string name="custom_runtime_warning_message">ART is not supported by LiquidSmooth. This setting is included for experimentation only and has the potential to cause instability, crashes, data loss or prevent the proper boot of your device. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+    <string name="custom_runtime_warning_message">ART is not supported by Fireworks. This setting is included for experimentation only and has the potential to cause instability, crashes, data loss or prevent the proper boot of your device. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
 
     <!-- LiquidSmooth Anonymous Stats -->
-    <string name="rominfo_settings_list_item_title">LiquidSmooth Statistics</string>
-    <string name="rominfo_settings_list_item_summary">Help make LiquidSmooth better by opting into anonymous statistics reporting</string>
+    <string name="rominfo_settings_list_item_title">Fireworks Statistics</string>
+    <string name="rominfo_settings_list_item_summary">Help make Fireworks better by opting into anonymous statistics reporting</string>
 
     <!-- LiquidSmooth Updater -->
-    <string name="liquidsmoothupdate_settings_title">LiquidSmooth Updates</string>
+    <string name="liquidsmoothupdate_settings_title">Fireworks Updates</string>
     <string name="liquidsmoothupdate_settings_summary">Check for, view or install updates</string>
 
     <!-- Vibration multiplier -->
@@ -2470,16 +2471,16 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lock_pattern_size_10">10x10</string>
 
     <!-- Download Center -->
-    <string name="download_category">LiquidSmooth Downloads</string>
+    <string name="download_category">Fireworks Downloads</string>
     <string name="download_category_summary">Find all of your support needs inside</string>
     <string name="rom_category">Rom Download</string>
     <string name="gapps_category">GAPPS Packages</string>
     <string name="xposed_category">Xposed Framework</string>
-    <string name="lsgapps_title">LiquidSmooth Gapps</string>
-    <string name="lsgapps_summary">LiquidSmooth Gapps are generally recommended gapps for use on LiquidSmooth</string>
-    <string name="ls_official_title">LiquidSmooth Release Builds</string>
-    <string name="ls_official_summary">Link for stable release builds of LiquidSmooth</string>
-    <string name="ls_nightly_title">LiquidSmooth Nightly Builds</string>
+    <string name="lsgapps_title">Fireworks Gapps</string>
+    <string name="lsgapps_summary">Fireworks Gapps are generally recommended gapps for use on Fireworks</string>
+    <string name="ls_official_title">Fireworks Release Builds</string>
+    <string name="ls_official_summary">Link for stable release builds of Fireworks</string>
+    <string name="ls_nightly_title">Fireworks Nightly Builds</string>
     <string name="ls_nightly_summary">Link for possibly unstable builds</string>
     <string name="pagapps_title">PA Gapps</string>
     <string name="pagapps_summary">Fully packed with the majority of GAPPS, these are commonly used by users that do not want to download/install them later</string>
@@ -2588,10 +2589,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="overscroll_weight_summary">Select the weight of the scrollable objects</string>
 
     <!-- LiquidSmooth Main Settings -->
-    <string name="liquid_settings_title">LiquidSmooth</string>
+    <string name="liquid_settings_title">Fireworks</string>
 
     <!-- LiquidSmooth Sound -->
-    <string name="liquid_sound_title">LiquidSmooth sound</string>
+    <string name="liquid_sound_title">Fireworks sound</string>
     <string name="liquid_sound_summary">All sound related settings that we have added</string>
 
     <!-- Backlight brightness settings screen -->
