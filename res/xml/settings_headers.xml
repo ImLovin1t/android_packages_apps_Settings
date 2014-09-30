@@ -80,7 +80,7 @@
     <header android:id="@+id/general_section"
         android:title="@string/general_category_title" />
 
-    <!-- Main LiquidSmooth Settings -->
+    <!-- Main Fireworks Settings -->
     <header
         settings:includeXmlForSearch="@xml/liquid_main_settings"
         android:id="@+id/main_settings"
