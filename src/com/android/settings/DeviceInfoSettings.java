@@ -143,13 +143,6 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
             getPreferenceScreen().removePreference(findPreference(KEY_BASEBAND_VERSION));
         }
 
-        // Only the owner should see the Updater settings, if it exists
-        if (UserHandle.myUserId() == UserHandle.USER_OWNER) {
-            removePreferenceIfPackageNotInstalled(findPreference(KEY_LIQUIDSMOOTH_UPDATES));
-        } else {
-            getPreferenceScreen().removePreference(findPreference(KEY_LIQUIDSMOOTH_UPDATES));
-        }
-
         /*
          * Settings is a generic app and should not contain any device-specific
          * info.
