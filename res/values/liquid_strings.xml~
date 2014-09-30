@@ -871,7 +871,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lockscreen_style_reset_message">Reset all lock screen colors?</string>
     <string name="lockscreen_icon_title">Lock handle icon</string>
     <string name="lockscreen_lock_icon_custom">Custom icon</string>
-    <string name="lockscreen_lock_icon_liquid">Liquid icon</string>
+    <string name="lockscreen_lock_icon_liquid">Fireworks icon</string>
     <string name="lockscreen_lock_icon_default">Default icon</string>
     <string name="lockscreen_colorize_handle_title">Colorize custom handle</string>
     <string name="lockscreen_colorize_handle_summary">Lock color will be set to the lock handle</string>
@@ -1129,7 +1129,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="device_hostname">Device hostname</string>
 
     <!-- Chamber of Secrets -->
-    <string name="chamber_title">Liquid Dungeon</string>
+    <string name="chamber_title">Fireworks Dungeon</string>
     <string name="chamber_toast">The Dungeon has opened</string>
 
     <!-- Volume Keys Media Control -->
