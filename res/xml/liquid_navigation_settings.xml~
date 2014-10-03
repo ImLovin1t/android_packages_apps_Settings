@@ -30,6 +30,7 @@
      <PreferenceScreen
         android:key="app_sidebar"
         android:fragment="com.android.settings.chameleonos.AppSidebar"
+        android:icon="@drawable/ic_dt_appcirclebar" 
         android:title="@string/app_sidebar_title" />
 
     <!-- Gesture Anywhere -->
