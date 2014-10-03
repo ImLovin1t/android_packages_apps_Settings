@@ -26,6 +26,12 @@
         android:summary="@string/app_circle_bar_summary"
         android:fragment="com.android.settings.liquid.AppCircleSidebar" />
 
+    <!-- App sidebar -->
+     <PreferenceScreen
+        android:key="app_sidebar"
+        android:fragment="com.android.settings.chameleonos.AppSidebar"
+        android:title="@string/app_sidebar_title" />
+
     <!-- Gesture Anywhere -->
     <PreferenceScreen
         android:key="gesture_anywhere"

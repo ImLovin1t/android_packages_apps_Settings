@@ -55,6 +55,9 @@ public class Download extends SettingsPreferenceFragment implements OnPreference
 
         final ContentResolver resolver = getActivity().getContentResolver();
 
+        mLSGapps = findPreference("ls_gapps");
+        mLSOfficial = findPreference("ls_official");
+        mLSNightly = findPreference("ls_nightly");
         mPAGapps = findPreference("pa_gapps");
         mXposed = findPreference("xposed");
         mXposedMod = findPreference("xposed_mod");
@@ -67,8 +70,13 @@ public class Download extends SettingsPreferenceFragment implements OnPreference
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-      if (preference == mPAGapps) {
-            Uri uri = Uri.parse("http://forum.xda-developers.com/showthread.php?t=2397942");
+        if (preference == mLSGapps) {
+            Uri uri = Uri.parse("http://goo.gl/Skc3E0");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+            return true;
+        } else if (preference == mPAGapps) {
+            Uri uri = Uri.parse("http://goo.gl/CPwXdX");
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
             return true;
@@ -82,7 +90,17 @@ public class Download extends SettingsPreferenceFragment implements OnPreference
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
             return true;
-        } 
+        } else if (preference == mLSOfficial) {
+            Uri uri = Uri.parse("http://goo.gl/L1ho8B");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+            return true;
+        } else if (preference == mLSNightly) {
+            Uri uri = Uri.parse("http://goo.gl/xiEed1");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+            return true;
+        }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
